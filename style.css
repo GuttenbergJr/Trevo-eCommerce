@@ -1,0 +1,18 @@
+
+
+body{
+    background: linear-gradient(#cdffd8, #94b9ff);
+    height: 100vh;
+}
+
+section h1{
+    font-size: 25vh;
+    color: #daa520;
+}
+a{
+    text-decoration: none;
+}
+
+section button{
+    height: 100px;
+}
