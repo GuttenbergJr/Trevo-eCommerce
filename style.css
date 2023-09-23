@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
 
 body {
     background: linear-gradient(#cdffd8, #94b9ff);
@@ -63,6 +66,12 @@ section button {
 
 /* PRODUTOS*/
 
+#products{
+    background: linear-gradient(#cdffd8, #94b9ff);
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
 #prod-title{
     color: #daa520;
     font-family: 'Dancing Script', cursive;
@@ -71,6 +80,8 @@ section button {
 }
 
 #prod-subtitle{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
     margin-bottom: 2.5rem;
 }
 
@@ -82,10 +93,31 @@ section button {
     text-align: center;
     justify-content: center;
     align-items: center;
+    border: 1px solid #ffff;
+    background-color: #ffff;
+    border-radius: 10%;
+    padding-top: 10px;
+    margin: 15px;
 }
 
 
 .product-img{
-    height: 20rem;
+    height: 24rem;
     border-radius: 5%;
+}
+
+.product-descr{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+
+.product-price{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 402vh;
 }
