@@ -28,7 +28,6 @@ main section h1 {
 
 main section p {
     font-size: 1.5rem;
-    margin-top: 3rem;
     font-family: 'Mooli', sans-serif;
 }
 
@@ -63,3 +62,30 @@ section button {
 }
 
 /* PRODUTOS*/
+
+#prod-title{
+    color: #daa520;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin-bottom: -1rem;
+}
+
+#prod-subtitle{
+    margin-bottom: 2.5rem;
+}
+
+.container-products{
+    height: 75vh;
+}
+
+.child{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-img{
+    height: 20rem;
+    border-radius: 5%;
+}
